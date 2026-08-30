@@ -10,20 +10,9 @@ A full-stack Event Management System built using the MERN stack (MongoDB, Expres
 
 **Notable libraries:** Mongoose, Nodemailer
 
-## 🏗️ Architecture
+## ⚡ Quick Start
 
-A high-level view of how the main pieces fit together:
-
-```mermaid
-flowchart TD
-    User["👤 User / Browser"]
-    API["⚙️ Express API"]
-    User --> API
-    DB[("🗄️ MongoDB")]
-    API --> DB
-    EXT0["🔌 Email"]
-    API --> EXT0
-```
+```bash
 
 # 1. Clone the repository
 git clone https://github.com/Chandangorain/EventFlow-Mern-Event-Booking.git
